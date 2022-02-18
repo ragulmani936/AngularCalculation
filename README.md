@@ -110,6 +110,7 @@ h1{
 }
 ~~~
 ### rectangle.component.html
+~~~
 <div>
     <h2>Area of a Rectangle</h2>
     Length = <input  type="text" [(ngModel)]="length"> Meters<br>
@@ -141,7 +142,9 @@ export class RectangleComponent implements OnInit {
   }
 
 }
+~~~
 ### cylinder.component.html
+~~~
 <div>
     <h2>Area of a Cylinder</h2>
     Radius = <input  type="text" [(ngModel)]="radius"> Meters<br>
@@ -149,6 +152,7 @@ export class RectangleComponent implements OnInit {
     <input type="button" (click)="onCycCalculate()" value="calculate"><br>
     Area=<input [value]="area" type="text" >Meter<sup>2</sup>
 </div> 
+~~~
 ### cylinder.component.ts
 import { Component, OnInit } from '@angular/core';
 import { RadioControlValueAccessor } from "@angular/forms";

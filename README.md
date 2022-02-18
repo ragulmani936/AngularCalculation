@@ -52,6 +52,7 @@ Publish the website in the given URL.
 </body>
 ~~~
 ### app.component.ts
+~~~
 import { Component } from '@angular/core';
 
 @Component({
@@ -62,6 +63,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'cal';
 }
+~~~
 
 ### app.module.ts
 ~~~

@@ -62,8 +62,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'cal';
 }
-~~~
+
 ### app.module.ts
+~~~
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
@@ -146,7 +147,7 @@ export class RectangleComponent implements OnInit {
     <input type="button" (click)="onCycCalculate()" value="calculate"><br>
     Area=<input [value]="area" type="text" >Meter<sup>2</sup>
 </div> 
-cylinder.component.ts
+### cylinder.component.ts
 import { Component, OnInit } from '@angular/core';
 import { RadioControlValueAccessor } from "@angular/forms";
 

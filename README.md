@@ -176,3 +176,4 @@ export class CylinderComponent implements OnInit {
 
 
 ## Result:
+Thus the program to create the math calculation website using angular is completed

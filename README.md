@@ -50,7 +50,8 @@ Publish the website in the given URL.
       </div>
   </div>
 </body>
-app.component.ts
+~~~
+### app.component.ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -61,7 +62,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'cal';
 }
-app.module.ts
+~~~
+### app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
@@ -86,7 +88,8 @@ import { CylinderComponent } from './cylinder/cylinder.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-app.component.css
+~~~
+### app.component.css
 .container{
     background-color: rgb(136, 212, 13);
     text-align: center;

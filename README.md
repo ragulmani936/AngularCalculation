@@ -91,6 +91,7 @@ import { CylinderComponent } from './cylinder/cylinder.component';
 export class AppModule { }
 ~~~
 ### app.component.css
+~~~
 .container{
     background-color: rgb(136, 212, 13);
     text-align: center;
@@ -107,6 +108,7 @@ export class AppModule { }
 h1{
     text-decoration: underline;
 }
+~~~
 ### rectangle.component.html
 <div>
     <h2>Area of a Rectangle</h2>

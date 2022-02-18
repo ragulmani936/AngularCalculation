@@ -154,6 +154,7 @@ export class RectangleComponent implements OnInit {
 </div> 
 ~~~
 ### cylinder.component.ts
+~~~
 import { Component, OnInit } from '@angular/core';
 import { RadioControlValueAccessor } from "@angular/forms";
 
@@ -180,6 +181,7 @@ export class CylinderComponent implements OnInit {
   }
 
 }
+~~~
 ## OUTPUT:
 ![output](https://github.com/ragulmani936/AngularCalculation/blob/main/Screenshot.jpeg)
 

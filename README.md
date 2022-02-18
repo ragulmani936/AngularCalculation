@@ -170,8 +170,8 @@ export class CylinderComponent implements OnInit {
 
 }
 ## OUTPUT:
+![output](https://github.com/ragulmani936/AngularCalculation/blob/main/Screenshot.jpeg)
 
-### Home Page:
 
 
 ## Result:

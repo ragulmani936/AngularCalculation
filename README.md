@@ -32,7 +32,8 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
-app.component.html
+### app.component.html
+~~~
 <body>
   <div class="container">
       <h1>Math Calculations</h1>
@@ -102,7 +103,7 @@ app.component.css
 h1{
     text-decoration: underline;
 }
-rectangle.component.html
+### rectangle.component.html
 <div>
     <h2>Area of a Rectangle</h2>
     Length = <input  type="text" [(ngModel)]="length"> Meters<br>
@@ -134,7 +135,7 @@ export class RectangleComponent implements OnInit {
   }
 
 }
-cylinder.component.html
+### cylinder.component.html
 <div>
     <h2>Area of a Cylinder</h2>
     Radius = <input  type="text" [(ngModel)]="radius"> Meters<br>
